@@ -16,5 +16,4 @@ RUN apk --no-progress --quiet --no-cache add curl \
 #     adduser syft --disabled-password --no-create-home && \
 #     rm -rf /tmp/*
 
-USER user
 CMD sleep 3600
